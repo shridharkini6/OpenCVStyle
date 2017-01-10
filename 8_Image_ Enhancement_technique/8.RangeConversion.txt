@@ -1,0 +1,8 @@
+Range conversion or Conversion of Saturation values
+
+fs = f - min(f);
+
+F = K*[fs/(max(f)-min(f))];
+
+
+for 8 bit image:  K = 255
